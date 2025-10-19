@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background-color: rgb(233, 239, 245);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  perspective: 600px; 
+}
+
+
+.box {
+  height: 100px;
+  width: 150px;
+  background-color: blue;
+  border-radius: 8px;
+  transition:
+    background-color 2s ease,    
+    transform 6s ease,          
+    border-radius 2s ease 2s;    
+  transform-origin: center;
+}
+
+
+.box:hover {
+  background-color: red;                 
+  transform: translateX(400px) rotate(360deg); 
+  border-radius: 100%;                       
+}
