@@ -11,7 +11,7 @@ body {
 .box {
   height: 100px;
   width: 150px;
-  background-color: blue;
+  background-color: red;
   border-radius: 8px;
   transition:
     background-color 2s ease,    
@@ -22,7 +22,8 @@ body {
 
 
 .box:hover {
-  background-color: red;                 
+  background-color: yellow;                 
   transform: translateX(400px) rotate(360deg); 
   border-radius: 100%;                       
+
 }
